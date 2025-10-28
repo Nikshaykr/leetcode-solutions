@@ -20,4 +20,14 @@ public class PalindromeNumber {
         return true;
     }
     // Time complexity: O(log n) & Space complexity: O(log n) because of string and char array storage
+
+    public boolean isPalindromeOptimized (int x){
+        if (x < 0 || (x % 10 == 0 && x != 0)) return false;
+        int revertedNumber = 0;
+        while (x > revertedNumber) {
+            revertedNumber = revertedNumber * 10 + x % 10;
+            x /= 10;
+        }
+        return x == revertedNumber || x == revertedNumber / 10;
+    }
 }
