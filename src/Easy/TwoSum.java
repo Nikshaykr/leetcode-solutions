@@ -42,4 +42,26 @@ public class TwoSum {
         }
         return new int[2];
     }
+    
+    public static void main(String[] args) {
+        TwoSum solution = new TwoSum();
+        
+        // Test case 1: Basic case
+        int[] nums1 = {2, 7, 11, 15};
+        int target1 = 9;
+        System.out.println("Input: [2,7,11,15], Target: 9");
+        System.out.println("Output: " + java.util.Arrays.toString(solution.twoSumBetter(nums1, target1)));
+        
+        // Test case 2: Numbers at end
+        int[] nums2 = {3, 2, 4};
+        int target2 = 6;
+        System.out.println("\nInput: [3,2,4], Target: 6");
+        System.out.println("Output: " + java.util.Arrays.toString(solution.twoSumBetter(nums2, target2)));
+        
+        // Test case 3: Same number twice
+        int[] nums3 = {3, 3};
+        int target3 = 6;
+        System.out.println("\nInput: [3,3], Target: 6");
+        System.out.println("Output: " + java.util.Arrays.toString(solution.twoSumBetter(nums3, target3)));
+    }
 }

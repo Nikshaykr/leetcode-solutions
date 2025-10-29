@@ -18,4 +18,16 @@ public class ContainsDuplicate {
         // If no duplicate found return false;
         return false;
     }
+    
+    public static void main(String[] args) {
+        ContainsDuplicate solution = new ContainsDuplicate();
+        
+        // Test case 1: has duplicates
+        int[] nums1 = {1, 2, 3, 1};
+        System.out.println("[1,2,3,1] contains duplicate: " + solution.containsDuplicate(nums1));
+        
+        // Test case 2: no duplicates
+        int[] nums2 = {1, 2, 3, 4};
+        System.out.println("[1,2,3,4] contains duplicate: " + solution.containsDuplicate(nums2));
+    }
 }

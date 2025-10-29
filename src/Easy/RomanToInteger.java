@@ -17,4 +17,11 @@ public class RomanToInteger {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        RomanToInteger solution = new RomanToInteger();
+
+        String roman1 = "III";
+        System.out.println(solution.romanToInt(roman1));
+    }
 }

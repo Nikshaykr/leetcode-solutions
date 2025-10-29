@@ -30,4 +30,16 @@ public class PalindromeNumber {
         }
         return x == revertedNumber || x == revertedNumber / 10;
     }
+
+    public static void main(String[] args) {
+        PalindromeNumber solution = new PalindromeNumber();
+
+        // Test case 1: is a palindrome number
+        int x = 121;
+        System.out.println("Is " + x + " a palindrome? " + solution.isPalindrome(x));
+
+        // Test case 2: is not a palindrome number
+        int y = 123;
+        System.out.println("Is " + y + " a palindrome? " + solution.isPalindrome(y));
+    }
 }
