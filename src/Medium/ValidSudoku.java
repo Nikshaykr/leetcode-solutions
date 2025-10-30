@@ -9,10 +9,11 @@ public class ValidSudoku {
 
         for (int r = 0; r < 9; r++){
             for (int c = 0; c < 9; c++){
-                if (board[r][c] != '.'){
-                    if (    !seen.add(board[r][c] + " in row " + r)    ||
-                            !seen.add(board[r][c] + " in column " + c) ||
-                            !seen.add(board[r][c] + " in block " + r/3 + "-" + c/3))
+                var num = board[r][c];
+                if (num != '.'){
+                    if (    !seen.add(num + " in row " + r)    ||
+                            !seen.add(num + " in column " + c) ||
+                            !seen.add(num + " in block " + r/3 + "-" + c/3))
                         return false;
                 }
             }
