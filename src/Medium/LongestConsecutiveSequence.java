@@ -8,7 +8,7 @@ public class LongestConsecutiveSequence {
 
         // Initialize the longest length to 1 and create a map to store each number with the value of boolean (false)
         // to track if it's visited or not
-        int longestLength = 1;
+        int longestLength = 0;
         Map<Integer, Boolean> map = new HashMap<>();
         for (int num : nums) {
             map.put(num, Boolean.FALSE);
