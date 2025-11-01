@@ -5,9 +5,9 @@ My personal collection of LeetCode problem solutions implemented in Java.
 
 ## 📊 Progress
 
-![Problems Solved](https://img.shields.io/badge/Solved-10-brightgreen)
+![Problems Solved](https://img.shields.io/badge/Solved-13-brightgreen)
 ![Easy](https://img.shields.io/badge/Easy-6-success)
-![Medium](https://img.shields.io/badge/Medium-4-orange)
+![Medium](https://img.shields.io/badge/Medium-7-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
 
 ## 📝 Problems
@@ -23,12 +23,15 @@ My personal collection of LeetCode problem solutions implemented in Java.
 | 125. | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)        | [Java](src/Easy/ValidPalindrome.java) | String Reversal, Two Pointers | Easy |
 
 ### Medium
-| #    | Problem                                                           | Solution                                   | Topics                     | Difficulty |
-|------|-------------------------------------------------------------------|--------------------------------------------|----------------------------|------------|
-| 49.  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)   | [Java](src/Medium/GroupAnagrams.java)      | Array, Hash Map, List      | Medium     |
-| 347. | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)   | [Java](src/Medium/TopKFrequentElement.java) | Array, Hash Map, Priority Queue | Medium     |
-| 238. | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)   | [Java](src/Medium/ProductOfArrayExceptSelf.java) | Array, Math                | Medium     |
-| 36.  | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)   | [Java](src/Medium/ValidSudoku.java)        | 2D Array, Hash Set, Math   | Medium     |
+| #    | Problem                                                      | Solution                            | Topics                         | Difficulty |
+|------|--------------------------------------------------------------|-------------------------------------|--------------------------------|---------|
+| 49.  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Java](src/Medium/GroupAnagrams.java) | Array, Hash Map, List          | Medium  |
+| 347. | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Java](src/Medium/TopKFrequentElement.java) | Array, Hash Map, Priority Queue | Medium  |
+| 238. | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Java](src/Medium/ProductOfArrayExceptSelf.java) | Array, Math                    | Medium  |
+| 36.  | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Java](src/Medium/ValidSudoku.java) | 2D Array, Hash Set, Math       | Medium  |
+| 167. | [Two Sum II - Input Array Is Sorted](https://leetcode.com/two-sum-ii-input-array-is-sorted/) | [Java](src/Medium/TwoSum2.java) | Array, Math                    | Medium  |
+| 15.  | [3Sum](https://leetcode.com/3sum/)   | [Java](src/Medium/ThreeSum.java) | Array, List, Hash Set, Math    | Medium  |
+| 11.  | [Container With Most Water](https://leetcode.com/container-with-most-water/)   | [Java](src/Medium/ContainerWithMostWater.java) | Array, Math     | Medium  |
 
 ### Hard
 | # | Problem | Solution | Topics | Difficulty |
