@@ -29,9 +29,9 @@ My personal collection of LeetCode problem solutions implemented in Java.
 | 347. | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Java](src/Medium/TopKFrequentElement.java) | Array, Hash Map, Priority Queue | Medium  |
 | 238. | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Java](src/Medium/ProductOfArrayExceptSelf.java) | Array, Math                    | Medium  |
 | 36.  | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Java](src/Medium/ValidSudoku.java) | 2D Array, Hash Set, Math       | Medium  |
-| 167. | [Two Sum II - Input Array Is Sorted](https://leetcode.com/two-sum-ii-input-array-is-sorted/) | [Java](src/Medium/TwoSum2.java) | Array, Math                    | Medium  |
-| 15.  | [3Sum](https://leetcode.com/3sum/)   | [Java](src/Medium/ThreeSum.java) | Array, List, Hash Set, Math    | Medium  |
-| 11.  | [Container With Most Water](https://leetcode.com/container-with-most-water/)   | [Java](src/Medium/ContainerWithMostWater.java) | Array, Math     | Medium  |
+| 167. | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](src/Medium/TwoSum2.java) | Array, Math                    | Medium  |
+| 15.  | [3Sum](https://leetcode.com/problems/3sum/)   | [Java](src/Medium/ThreeSum.java) | Array, List, Hash Set, Math    | Medium  |
+| 11.  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)   | [Java](src/Medium/ContainerWithMostWater.java) | Array, Math     | Medium  |
 
 ### Hard
 | # | Problem | Solution | Topics | Difficulty |
