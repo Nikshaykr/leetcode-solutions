@@ -5,10 +5,10 @@ My personal collection of LeetCode problem solutions implemented in Java.
 
 ## 📊 Progress
 
-![Problems Solved](https://img.shields.io/badge/Solved-13-brightgreen)
-![Easy](https://img.shields.io/badge/Easy-6-success)
-![Medium](https://img.shields.io/badge/Medium-7-orange)
-![Hard](https://img.shields.io/badge/Hard-0-red)
+![Problems Solved](https://img.shields.io/badge/Solved-17-brightgreen)
+![Easy](https://img.shields.io/badge/Easy-7-success)
+![Medium](https://img.shields.io/badge/Medium-9-orange)
+![Hard](https://img.shields.io/badge/Hard-1-red)
 
 ## 📝 Problems
 
