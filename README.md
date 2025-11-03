@@ -13,30 +13,33 @@ My personal collection of LeetCode problem solutions implemented in Java.
 ## 📝 Problems
 
 ### Easy
-| #    | Problem                                                                 | Solution | Topics                        | Difficulty |
-|------|-------------------------------------------------------------------------|----------|-------------------------------|------------|
-| 1.   | [Two Sum](https://leetcode.com/problems/two-sum/)                       | [Java](src/Easy/TwoSum.java) | Array, Hash Table             | Easy |
-| 9.   | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)   | [Java](src/Easy/PalindromeNumber.java) | Math                          | Easy |
-| 13.  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)     | [Java](src/Easy/RomanToInteger.java) | Hash Table, String            | Easy |
-| 217. | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Java](src/Easy/ContainsDuplicate.java) | Array, Hash Table, Sorting    | Easy |
-| 242. | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)           | [Java](src/Easy/ValidAnagram.java) | Array, Sorting, Math          | Easy |
-| 125. | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)        | [Java](src/Easy/ValidPalindrome.java) | String Reversal, Two Pointers | Easy |
+| #    | Problem                                                                                           | Solution                                        | Topics                        | Difficulty  |
+|------|---------------------------------------------------------------------------------------------------|-------------------------------------------------|-------------------------------|-------------|
+| 1.   | [Two Sum](https://leetcode.com/problems/two-sum/)                                                 | [Java](src/Easy/TwoSum.java)                    | Array, Hash Table             | Easy        |
+| 9.   | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)                             | [Java](src/Easy/PalindromeNumber.java)          | Math                          | Easy        |
+| 13.  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                               | [Java](src/Easy/RomanToInteger.java)            | Hash Table, String            | Easy        |
+| 217. | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                           | [Java](src/Easy/ContainsDuplicate.java)         | Array, Hash Table, Sorting    | Easy        |
+| 242. | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                     | [Java](src/Easy/ValidAnagram.java)              | Array, Sorting, Math          | Easy        |
+| 125. | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                               | [Java](src/Easy/ValidPalindrome.java)           | String Reversal, Two Pointers | Easy        |
+| 121. | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](src/Easy/BestTimeToBuyAndSellStock.java) | Array, Math                   | Easy        |
 
 ### Medium
-| #    | Problem                                                      | Solution                            | Topics                         | Difficulty |
-|------|--------------------------------------------------------------|-------------------------------------|--------------------------------|---------|
-| 49.  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Java](src/Medium/GroupAnagrams.java) | Array, Hash Map, List          | Medium  |
-| 347. | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Java](src/Medium/TopKFrequentElement.java) | Array, Hash Map, Priority Queue | Medium  |
-| 238. | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Java](src/Medium/ProductOfArrayExceptSelf.java) | Array, Math                    | Medium  |
-| 36.  | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Java](src/Medium/ValidSudoku.java) | 2D Array, Hash Set, Math       | Medium  |
-| 167. | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](src/Medium/TwoSum2.java) | Array, Math                    | Medium  |
-| 15.  | [3Sum](https://leetcode.com/problems/3sum/)   | [Java](src/Medium/ThreeSum.java) | Array, List, Hash Set, Math    | Medium  |
-| 11.  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)   | [Java](src/Medium/ContainerWithMostWater.java) | Array, Math     | Medium  |
+| #    | Problem                                                                                                                  | Solution                                                     | Topics                          | Difficulty |
+|------|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|---------------------------------|------------|
+| 49.  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                          | [Java](src/Medium/GroupAnagrams.java)                        | Array, Hash Map, List           | Medium     |
+| 347. | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                                        | [Java](src/Medium/TopKFrequentElement.java)                  | Array, Hash Map, Priority Queue | Medium     |
+| 238. | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)                              | [Java](src/Medium/ProductOfArrayExceptSelf.java)             | Array, Math                     | Medium     |
+| 36.  | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                                              | [Java](src/Medium/ValidSudoku.java)                          | 2D Array, Hash Set, Math        | Medium     |
+| 167. | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                    | [Java](src/Medium/TwoSum2.java)                              | Array, Math                     | Medium     |
+| 15.  | [3Sum](https://leetcode.com/problems/3sum/)                                                                              | [Java](src/Medium/ThreeSum.java)                             | Array, List, Hash Set, Math     | Medium     |
+| 11.  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                                    | [Java](src/Medium/ContainerWithMostWater.java)               | Array, Math                     | Medium     |
+| 121. | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)                        | [Java](src/Medium/ContainerWithMostWater.java)               | Array, Math                     | Medium     |
+| 3.   | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Java](src/Medium/LongestSubstringWithoutRepeatingChar.java) | Hash Set, Math                  | Medium     |
 
 ### Hard
-| # | Problem | Solution | Topics | Difficulty |
-|---|---------|----------|--------|------------|
-| Coming soon... | | | | |
+| #   | Problem                                                                   | Solution                                | Topics      | Difficulty |
+|-----|---------------------------------------------------------------------------|-----------------------------------------|-------------|------------|
+| 42. | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Java](src/Hard/TrappingRainWater.java) | Array, Math | Hard       |
 
 ## 🚀 How to Run
 
