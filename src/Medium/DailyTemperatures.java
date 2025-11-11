@@ -28,6 +28,5 @@ public class DailyTemperatures {
         int[] temperatures1 = {73, 74, 75, 71, 69, 72, 76, 73};
         int[] result1 = solutions.dailyTemperatures(temperatures1);
         System.out.println(Arrays.toString(result1));
-
     }
 }
