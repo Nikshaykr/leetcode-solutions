@@ -1,4 +1,4 @@
-package Medium;
+package main.medium;
 
 /**
  * Binary search to find minimum in rotated sorted array

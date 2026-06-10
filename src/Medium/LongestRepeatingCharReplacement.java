@@ -1,4 +1,4 @@
-package Medium;
+package main.medium;
 
 public class LongestRepeatingCharReplacement {
     public int characterReplacement(String s, int k) {

@@ -1,4 +1,4 @@
-package Hard;
+package main.hard;
 /**
  * Two-pointer approach for trapping rainwater
  * Time: O(n), Space: O(1)

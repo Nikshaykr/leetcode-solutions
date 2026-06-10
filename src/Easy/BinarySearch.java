@@ -1,4 +1,4 @@
-package Easy;
+package main.easy;
 
 public class BinarySearch {
     public int searchIterative(int[] nums, int target) {

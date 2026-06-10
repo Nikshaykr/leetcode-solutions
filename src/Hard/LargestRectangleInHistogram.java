@@ -1,4 +1,4 @@
-package Hard;
+package main.hard;
 
 import java.util.Stack;
 

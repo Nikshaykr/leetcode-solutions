@@ -1,4 +1,4 @@
-package Medium;
+package main.medium;
 
 public class SearchInRotatedSortedArr {
     public int search(int[] nums, int target) {

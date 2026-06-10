@@ -1,4 +1,4 @@
-package Hard;
+package main.hard;
 
 public class MinWindowSubstr {
     public String minWindow(String s, String t) {

@@ -1,4 +1,4 @@
-package Medium;
+package main.medium;
 
 public class KokoEatingBananas {
     public int minEatingSpeed(int[] piles, int h) {

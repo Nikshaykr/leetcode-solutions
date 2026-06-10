@@ -1,4 +1,4 @@
-package Medium;
+package main.medium;
 
 import java.util.Objects;
 import java.util.Stack;
