@@ -15,15 +15,15 @@ My personal collection of LeetCode problem solutions implemented in Java.
 ### main.Easy
 | #    | Problem                                                                                             | Solution                                        | Topics                        | Difficulty  |
 |------|-----------------------------------------------------------------------------------------------------|-------------------------------------------------|-------------------------------|-------------|
-| 1.   | [Two Sum](https://leetcode.com/problems/two-sum/)                                                   | [Java](src/Easy/TwoSum.java)                    | Array, Hash Table             | main.Easy        |
-| 9.   | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)                               | [Java](src/Easy/PalindromeNumber.java)          | Math                          | main.Easy        |
-| 13.  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                 | [Java](src/Easy/RomanToInteger.java)            | Hash Table, String            | main.Easy        |
-| 217. | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                             | [Java](src/Easy/ContainsDuplicate.java)         | Array, Hash Table, Sorting    | main.Easy        |
-| 242. | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                       | [Java](src/Easy/ValidAnagram.java)              | Array, Sorting, Math          | main.Easy        |
-| 125. | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                 | [Java](src/Easy/ValidPalindrome.java)           | String Reversal, Two Pointers | main.Easy        |
-| 121. | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)   | [Java](src/Easy/BestTimeToBuyAndSellStock.java) | Array, Math                   | main.Easy        |
-| 20.  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                               | [Java](src/Easy/ValidParentheses.java)          | Array, Hash Map, Stack        | main.Easy        |
-| 704. | [Binary Search](https://leetcode.com/problems/binary-search/)                                       | [Java](src/Easy/BinarySearch.java)              | Array, Recursion, Searching   | main.Easy        |
+| 1.   | [Two Sum](https://leetcode.com/problems/two-sum/)                                                   | [Java](src/Easy/TwoSum.java)                    | Array, Hash Table             | Easy        |
+| 9.   | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)                               | [Java](src/Easy/PalindromeNumber.java)          | Math                          | Easy        |
+| 13.  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                 | [Java](src/Easy/RomanToInteger.java)            | Hash Table, String            | Easy        |
+| 217. | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                             | [Java](src/Easy/ContainsDuplicate.java)         | Array, Hash Table, Sorting    | Easy        |
+| 242. | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                       | [Java](src/Easy/ValidAnagram.java)              | Array, Sorting, Math          | Easy        |
+| 125. | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                 | [Java](src/Easy/ValidPalindrome.java)           | String Reversal, Two Pointers | Easy        |
+| 121. | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)   | [Java](src/Easy/BestTimeToBuyAndSellStock.java) | Array, Math                   | Easy        |
+| 20.  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                               | [Java](src/Easy/ValidParentheses.java)          | Array, Hash Map, Stack        | Easy        |
+| 704. | [Binary Search](https://leetcode.com/problems/binary-search/)                                       | [Java](src/Easy/BinarySearch.java)              | Array, Recursion, Searching   | Easy        |
 
 ### Medium
 | #    | Problem                                                                                                                    | Solution                                                     | Topics                          | Difficulty |
@@ -50,10 +50,10 @@ My personal collection of LeetCode problem solutions implemented in Java.
 ### main.Hard
 | #    | Problem                                                                                         | Solution                                          | Topics                              | Difficulty |
 |------|-------------------------------------------------------------------------------------------------|---------------------------------------------------|-------------------------------------|------------|
-| 42.  | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                       | [Java](src/Hard/TrappingRainWater.java)           | Array, Math                         | main.Hard       |
-| 76.  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)             | [Java](src/Hard/MinWindowSubstr.java)             | Array, Dynamic Sliding Window, Math | main.Hard       |
-| 239. | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                 | [Java](src/Hard/SlidingWindowMax.java)            | Array, Deque, Math                  | main.Hard       |
-| 84.  | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](src/Hard/LargestRectangleInHistogram.java) | Array, Monotonic Stack              | main.Hard       |
+| 42.  | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                       | [Java](src/Hard/TrappingRainWater.java)           | Array, Math                         | Hard       |
+| 76.  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)             | [Java](src/Hard/MinWindowSubstr.java)             | Array, Dynamic Sliding Window, Math | Hard       |
+| 239. | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                 | [Java](src/Hard/SlidingWindowMax.java)            | Array, Deque, Math                  | Hard       |
+| 84.  | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](src/Hard/LargestRectangleInHistogram.java) | Array, Monotonic Stack              | Hard       |
 
 ## 🚀 How to Run
 
