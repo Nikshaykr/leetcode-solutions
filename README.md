@@ -5,9 +5,9 @@ My personal collection of LeetCode problem solutions implemented in Java.
 
 ## 📊 Progress
 
-![Problems Solved](https://img.shields.io/badge/Solved-30-brightgreen)
+![Problems Solved](https://img.shields.io/badge/Solved-31-brightgreen)
 ![main.Easy](https://img.shields.io/badge/Easy-9-success)
-![Medium](https://img.shields.io/badge/Medium-17-orange)
+![Medium](https://img.shields.io/badge/Medium-18-orange)
 ![main.Hard](https://img.shields.io/badge/Hard-4-red)
 
 ## 📝 Problems
@@ -26,25 +26,26 @@ My personal collection of LeetCode problem solutions implemented in Java.
 | 704. | [Binary Search](https://leetcode.com/problems/binary-search/)                                       | [Java](src/Easy/BinarySearch.java)              | Array, Recursion, Searching   | main.Easy        |
 
 ### Medium
-| #    | Problem                                                                                                                                                            | Solution                                                     | Topics                          | Difficulty |
-|------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|---------------------------------|------------|
-| 49.  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                                                                    | [Java](src/Medium/GroupAnagrams.java)                        | Array, Hash Map, List           | Medium     |
-| 347. | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                                                                                  | [Java](src/Medium/TopKFrequentElement.java)                  | Array, Hash Map, Priority Queue | Medium     |
-| 238. | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)                                                                        | [Java](src/Medium/ProductOfArrayExceptSelf.java)             | Array, Math                     | Medium     |
-| 36.  | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                                                                                        | [Java](src/Medium/ValidSudoku.java)                          | 2D Array, Hash Set, Math        | Medium     |
-| 167. | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                                                              | [Java](src/Medium/TwoSum2.java)                              | Array, Math                     | Medium     |
-| 15.  | [3Sum](https://leetcode.com/problems/3sum/)                                                                                                                        | [Java](src/Medium/ThreeSum.java)                             | Array, List, Hash Set, Math     | Medium     |
-| 11.  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                                                                              | [Java](src/Medium/ContainerWithMostWater.java)               | Array, Math                     | Medium     |
-| 3.   | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                                    | [Java](src/Medium/LongestSubstringWithoutRepeatingChar.java) | Hash Set, Math                  | Medium     |
-| 128. | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)                                                                        | [Java](src/Medium/LongestConsecutiveSequence.java)           | Hash Map, Math                  | Medium     |
-| 424. | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)                                                  | [Java](src/Medium/LongestRepeatingCharReplacement.java)      | Array, Sliding Window,  Math    | Medium     |
-| 567. | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)                                                                                      | [Java](src/Medium/PermutationInString.java)                  | Array, Sliding Window,  Math    | Medium     |
-| 155. | [Min Stack](https://leetcode.com/problems/min-stack/)                                                                                                              | [Java](src/Medium/MinStack.java)                             | Array, Stack,                   | Medium     |
-| 150. | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                                                                | [Java](src/Medium/EvaluateRevPolishNotation.java)            | Stack, Math                     | Medium     |
-| 74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                                            | [Java](src/Medium/Search2DMatrix.java)                       | 2D Array, Searching             | Medium     |
-| 875. | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)                                                                                          | [Java](src/Medium/KokoEatingBananas.java)                    | Binary Search, Math             | Medium     |
-| 153. | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                                        | [Java](src/Medium/MinInRotatedSortedArr.java)                | Binary Search, Math             | Medium     |
-| 33.  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                                    | [Java](src/Medium/SearchInRotatedSortedArr.java)             | Binary Search, Math             | Medium     |
+| #    | Problem                                                                                                                    | Solution                                                     | Topics                          | Difficulty |
+|------|----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|---------------------------------|------------|
+| 49.  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                            | [Java](src/Medium/GroupAnagrams.java)                        | Array, Hash Map, List           | Medium     |
+| 347. | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                                          | [Java](src/Medium/TopKFrequentElement.java)                  | Array, Hash Map, Priority Queue | Medium     |
+| 238. | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)                                | [Java](src/Medium/ProductOfArrayExceptSelf.java)             | Array, Math                     | Medium     |
+| 36.  | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                                                | [Java](src/Medium/ValidSudoku.java)                          | 2D Array, Hash Set, Math        | Medium     |
+| 167. | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                      | [Java](src/Medium/TwoSum2.java)                              | Array, Math                     | Medium     |
+| 15.  | [3Sum](https://leetcode.com/problems/3sum/)                                                                                | [Java](src/Medium/ThreeSum.java)                             | Array, List, Hash Set, Math     | Medium     |
+| 11.  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                                      | [Java](src/Medium/ContainerWithMostWater.java)               | Array, Math                     | Medium     |
+| 3.   | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Java](src/Medium/LongestSubstringWithoutRepeatingChar.java) | Hash Set, Math                  | Medium     |
+| 128. | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)                                | [Java](src/Medium/LongestConsecutiveSequence.java)           | Hash Map, Math                  | Medium     |
+| 424. | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)          | [Java](src/Medium/LongestRepeatingCharReplacement.java)      | Array, Sliding Window,  Math    | Medium     |
+| 567. | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)                                              | [Java](src/Medium/PermutationInString.java)                  | Array, Sliding Window,  Math    | Medium     |
+| 155. | [Min Stack](https://leetcode.com/problems/min-stack/)                                                                      | [Java](src/Medium/MinStack.java)                             | Array, Stack,                   | Medium     |
+| 150. | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                        | [Java](src/Medium/EvaluateRevPolishNotation.java)            | Stack, Math                     | Medium     |
+| 74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                    | [Java](src/Medium/Search2DMatrix.java)                       | 2D Array, Searching             | Medium     |
+| 875. | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)                                                  | [Java](src/Medium/KokoEatingBananas.java)                    | Binary Search, Math             | Medium     |
+| 153. | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                | [Java](src/Medium/MinInRotatedSortedArr.java)                | Binary Search, Math             | Medium     |
+| 33.  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                            | [Java](src/Medium/SearchInRotatedSortedArr.java)             | Binary Search, Math             | Medium     |
+| 271. | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)                                      | [Java](src/Medium/EncodeAndDecode.java)                      | Pref and Suff, Math             | Medium     |
 
 ### main.Hard
 | #    | Problem                                                                                         | Solution                                          | Topics                              | Difficulty |
