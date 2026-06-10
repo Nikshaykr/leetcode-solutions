@@ -22,6 +22,9 @@ public class TopKFrequentElement {
         for (var i = k - 1; i >= 0; i--) res[i] = pq.poll();
 
         return res;
+
+        // Populating the map = O(n) + Heap methods like poll and add = O(log m) + it runs k times O(k) +
+        // poll to populate res k times = O(k log k) == O(n + m logk)
     }
 
     public int[] topKFrequentOptimized (int[] nums, int k){
@@ -29,7 +32,7 @@ public class TopKFrequentElement {
         Map<Integer, Integer> map = new HashMap<>();
         for (var num : nums) map.put(num, map.getOrDefault(num, 0) + 1);
 
-        // Create a List of size nums.length + 1 as the most frequency a num can have is the length of nums
+        // Create a List with size nums.length + 1 as the most frequency a num can have is the length of the array
         // and initialize each slot of List to an empty ArrayList
         List<Integer>[] bucket = new ArrayList[nums.length + 1];
         for (var i = 0; i < bucket.length; i++) bucket[i] = new ArrayList<>();
