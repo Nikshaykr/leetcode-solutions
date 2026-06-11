@@ -1,12 +1,14 @@
 package Medium;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 public class LongestConsecutiveSequence {
     public int longestConsecutive (int[] nums){
 
-        // Initialize the longest length to 1 and create a map to store each number with the value of boolean (false)
+        // Initialize the longest length to 0 and create a map to store each number with the value of boolean (false)
         // to track if it's visited or not
         int longestLength = 0;
         Map<Integer, Boolean> map = new HashMap<>();
@@ -40,12 +42,36 @@ public class LongestConsecutiveSequence {
     }
     // Time complexity: O(n) && Space complexity: O(n) (Hashmap Storage)
 
+    public int longestConsecutiveBySet(int[] nums) {
+        int longest = 0;
+
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums) set.add(num);
+
+        for (int num : nums){
+            if (!set.contains(num - 1)){
+                int length = 1;
+                int curr = num;
+
+                while (set.contains(curr + 1)){
+                    curr++;
+                    length++;
+                }
+                longest = Math.max(longest, length);
+            }
+        }
+        return longest;
+    }
+
     public static void main(String[] args) {
         LongestConsecutiveSequence solution = new LongestConsecutiveSequence();
 
         // Test case 1
         int[] nums1 = {100, 4, 200, 1, 3, 2};
         System.out.println(solution.longestConsecutive(nums1));
+
+        int[] nums3 = {100, 4, 200, 1, 3, 2};
+        System.out.println(solution.longestConsecutiveBySet(nums3));
 
         // Test case 2
         int[] nums2 = {0, 3, 7, 2, 5, 8, 4, 6, 0, 1};
