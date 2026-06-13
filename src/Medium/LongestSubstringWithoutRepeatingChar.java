@@ -1,6 +1,8 @@
 package Medium;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class LongestSubstringWithoutRepeatingChar {
@@ -23,12 +25,37 @@ public class LongestSubstringWithoutRepeatingChar {
         return maxLength;
     }
 
+    public int lengthOfLongestSubstringOptimal(String s) {
+        Map<Character, Integer> map = new HashMap<>();
+        int left = 0, maxLength = 0;
+
+        for (int right = 0; right < s.length(); right++) {
+
+            if (map.containsKey(s.charAt(right))){
+                left = Math.max(map.get(s.charAt(right)) + 1, left);
+            }
+            map.put(s.charAt(right), right);
+            maxLength = Math.max(maxLength, right - left + 1);
+        }
+        return maxLength;
+    }
+
     public static void main(String[] args) {
         LongestSubstringWithoutRepeatingChar solution = new LongestSubstringWithoutRepeatingChar();
 
         // Test case 1
-        String input = "abcabcbb";
-        int result = solution.lengthOfLongestSubstring(input);
-        System.out.println("Length of the longest substring without repeating characters: " + result);
+        String input1 = "abcabcbb";
+        int result1 = solution.lengthOfLongestSubstring(input1);
+        System.out.println("Length of the longest substring without repeating characters: " + result1);
+
+        // Test case 2
+        String input2 = "pwwkew";
+        int result2 = solution.lengthOfLongestSubstring(input2);
+        System.out.println("Length of the longest substring- " + input2 + " without repeating characters: " + result2);
+
+        // Test case 3
+        String input3 = "abcabcbb";
+        int result3 = solution.lengthOfLongestSubstringOptimal(input3);
+        System.out.println("Length of the longest substring without repeating characters: " + result3);
     }
 }
