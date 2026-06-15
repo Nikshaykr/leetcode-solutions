@@ -13,7 +13,7 @@ public class MinWindowSubstr {
 
         char[] chS = s.toCharArray();
         while (end < chS.length){
-            // If the character is in t, decrement the count
+            // If the character is in t, decrement the count that means we found a required char
             if (map[chS[end++]]-- > 0) count--;
 
             // When all characters in t are found, start shrinking the window
@@ -25,7 +25,7 @@ public class MinWindowSubstr {
                     startIndex = start;
                 }
 
-                // If the character at start is in t, increment the count
+                // If the character at start is in t, increment the count that means
                 if (map[chS[start++]]++ == 0) count++;
             }
         }

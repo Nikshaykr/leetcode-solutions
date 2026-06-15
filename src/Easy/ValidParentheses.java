@@ -30,6 +30,19 @@ public class ValidParentheses {
         return stack.isEmpty();
     }
 
+    public boolean isValidFaster(String s) {
+        Stack<Character> stack = new Stack<>();
+
+        for (char ch : s.toCharArray()){
+            if (ch == '(') stack.push(')');
+            else if (ch == '{') stack.push('}');
+            else if (ch == '[') stack.push(']');
+            else if (!stack.isEmpty() && ch == stack.peek()) stack.pop();
+            else return false;
+        }
+        return stack.isEmpty();
+    }
+
     public static void main(String[] args) {
         ValidParentheses solution = new ValidParentheses();
 
@@ -47,5 +60,10 @@ public class ValidParentheses {
         String s3 = "]";
         boolean result3 = solution.isValid(s3);
         System.out.println("Is valid: " + result3);
+
+        // Test case 4
+        String s4 = "({[]})";
+        boolean result4 = solution.isValidFaster(s4);
+        System.out.println("Is valid: " + result4);
     }
 }
